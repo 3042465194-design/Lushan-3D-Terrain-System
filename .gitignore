@@ -66,3 +66,24 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio 2022 缓存
+.vs/
+**/.vs/
+
+# 编译生成目录
+**/Debug/
+**/Release/
+**/ipch/
+
+# 临时及调试文件
+*.ipch
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
+
