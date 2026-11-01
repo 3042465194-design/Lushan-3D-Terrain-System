@@ -81,7 +81,7 @@ int main() {
 
     // 飞机模型
     float planeScale = 0.001f;
-    auto planeNode = std::make_shared<PlaneNode>("assets/plane.stl", planeScale);
+    auto planeNode = std::make_shared<PlaneNode>("assets/plane.STL", planeScale);
     if (planeNode->getVertexCount() == 0) {
         std::cerr << "Plane model empty, check STL file" << std::endl;
     }
