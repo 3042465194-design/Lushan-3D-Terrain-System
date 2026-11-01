@@ -86,4 +86,6 @@ Testing/
 *.ilk
 *.tlog
 *.lastbuildstate
+# 保留庐山三维地形 OBJ 模型
+!/lushan.obj
 
